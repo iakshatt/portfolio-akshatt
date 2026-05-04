@@ -1,0 +1,1 @@
+Developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase projects, technical skills, and contact information. Implemented modern UI design, smooth navigation, responsive layouts, and interactive elements to enhance user experience across different devices.
