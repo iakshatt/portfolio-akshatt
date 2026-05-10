@@ -290,17 +290,20 @@
       'Responsive Design'
     ];
 
-    const projects = [
-      {
-        title: 'Calculator App',
-        desc: 'Responsive calculator built using HTML, CSS, and JavaScript.'
-      },
-     
-      {
-        title: 'To-Do App',
-        desc: 'Task manager with local storage support.'
-      }
-    ];
+   const projects = [
+  {
+    title: 'Calculator App',
+    desc: 'Responsive calculator built using HTML, CSS, and JavaScript.',
+    link: 'https://iakshatt.github.io/calculator-project/'
+  },
+
+  {
+    title: 'To-Do App',
+    desc: 'Task manager with local storage support.',
+    link: 'https://akshat-doer-list.netlify.app/'
+  }
+];
+    
 
     const skillsContainer = document.getElementById('skillsContainer');
 
@@ -318,13 +321,12 @@
       card.className = 'project-card';
 
       card.innerHTML = `
-        <div class="project-image">Project Preview</div>
+        <div class="project-image">project preview</div>
 
         <div class="project-content">
           <h3>${project.title}</h3>
           <p>${project.desc}</p>
-          <a href="https://iakshatt.github.io/calculator-project/" class="btn">View Project</a>
-        </div>
+         <a href="${project.link}" class="btn" target="_blank">View Project</a>
       `;
 
       projectsContainer.appendChild(card);
@@ -333,3 +335,4 @@
 
 </body>
 </html>
+
